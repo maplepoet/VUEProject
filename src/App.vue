@@ -10,10 +10,22 @@ import TheWelcome from './components/TheWelcome.vue'
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/output.css" rel="stylesheet">
+
   </header>
 
   <main>
     <TheWelcome />
+
+
+
+
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   </main>
 </template>
 
